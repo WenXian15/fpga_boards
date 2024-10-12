@@ -20,6 +20,16 @@ set_property -dict {PACKAGE_PIN E3 IOSTANDARD LVCMOS33} [get_ports ]
 set_property -dict {PACKAGE_PIN H7 IOSTANDARD LVCMOS33} [get_ports ]
 set_property -dict {PACKAGE_PIN M6 IOSTANDARD LVCMOS33} [get_ports ]
 
+## SDIO
+## DAT2 (H6), DAT3 (J6), CLK (L4), CMD(J8), DAT0 (M5), DAT1 (M7), CD (N6)
+set_property -dict {PACKAGE_PIN H6 IOSTANDARD LVCMOS33} [get_ports ]
+set_property -dict {PACKAGE_PIN J6 IOSTANDARD LVCMOS33} [get_ports ]
+set_property -dict {PACKAGE_PIN L4 IOSTANDARD LVCMOS33} [get_ports ]
+set_property -dict {PACKAGE_PIN J8 IOSTANDARD LVCMOS33} [get_ports ]
+set_property -dict {PACKAGE_PIN M5 IOSTANDARD LVCMOS33} [get_ports ]
+set_property -dict {PACKAGE_PIN M7 IOSTANDARD LVCMOS33} [get_ports ]
+set_property -dict {PACKAGE_PIN N6 IOSTANDARD LVCMOS33} [get_ports ]
+
 ## DDR3
 # PadFunction: IO_L18N_T2_16
 set_property SLEW FAST [get_ports {ddr3_dq[0]}]
