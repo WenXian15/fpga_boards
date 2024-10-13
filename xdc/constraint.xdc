@@ -30,6 +30,8 @@ set_property -dict {PACKAGE_PIN M5 IOSTANDARD LVCMOS33} [get_ports ]
 set_property -dict {PACKAGE_PIN M7 IOSTANDARD LVCMOS33} [get_ports ]
 set_property -dict {PACKAGE_PIN N6 IOSTANDARD LVCMOS33} [get_ports ]
 
+## GMII
+
 ## DDR3
 # PadFunction: IO_L18N_T2_16
 set_property SLEW FAST [get_ports {ddr3_dq[0]}]
